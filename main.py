@@ -2,8 +2,9 @@
 
 Running this program writes one Wi-Fi network name to entry.txt in
 the output folder. The name is checked first (single line,
-non-empty, at most 32 characters), then written straight to the
-final file with no temporary files in the output folder.
+non-empty, at most 32 characters per the kit gate), then written
+straight to the final file with no temporary files in the output
+folder.
 """
 
 import os
